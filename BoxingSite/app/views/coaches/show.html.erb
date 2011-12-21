@@ -1,0 +1,18 @@
+<p>
+  <b>Lastname:</b>
+  <%=h @coach.lastname %>
+</p>
+
+<p>
+  <b>Firstname:</b>
+  <%=h @coach.firstname %>
+</p>
+
+<p>
+  <b>Xnumber:</b>
+  <%=h @coach.xNumber %>
+</p>
+
+
+<%= link_to 'Edit', edit_coach_path(@coach) %> |
+<%= link_to 'Back', coaches_path %>

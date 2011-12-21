@@ -1,0 +1,24 @@
+<h1>Editing coach</h1>
+
+<% form_for(@coach) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname %>
+  </p>
+  <p>
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname %>
+  </p>
+  <p>
+    <%= f.label :xNumber %><br />
+    <%= f.text_field :xNumber %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @coach %> |
+<%= link_to 'Back', coaches_path %>

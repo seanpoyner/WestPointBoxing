@@ -1,0 +1,26 @@
+<h1>Listing team_members</h1>
+
+<table>
+  <tr>
+    <th>Lastname</th>
+    <th>Firstname</th>
+    <th>Xnumber</th>
+    <th>Passbook</th>
+  </tr>
+
+<% for team_member in @team_members %>
+  <tr>
+    <td><%=h team_member.lastname %></td>
+    <td><%=h team_member.firstname %></td>
+    <td><%=h team_member.xNumber %></td>
+    <td><%=h team_member.passbook %></td>
+    <td><%= link_to 'Show', team_member %></td>
+    <td><%= link_to 'Edit', edit_team_member_path(team_member) %></td>
+    <td><%= link_to 'Destroy', team_member, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New team_member', new_team_member_path %>

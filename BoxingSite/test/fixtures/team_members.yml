@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  lastname: MyString
+  firstname: MyString
+  xNumber: MyString
+  passbook: false
+
+two:
+  lastname: MyString
+  firstname: MyString
+  xNumber: MyString
+  passbook: false

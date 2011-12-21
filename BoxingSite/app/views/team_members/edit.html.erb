@@ -1,0 +1,28 @@
+<h1>Editing team_member</h1>
+
+<% form_for(@team_member) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname %>
+  </p>
+  <p>
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname %>
+  </p>
+  <p>
+    <%= f.label :xNumber %><br />
+    <%= f.text_field :xNumber %>
+  </p>
+  <p>
+    <%= f.label :passbook %><br />
+    <%= f.check_box :passbook %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @team_member %> |
+<%= link_to 'Back', team_members_path %>

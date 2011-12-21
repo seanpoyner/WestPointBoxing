@@ -1,0 +1,9 @@
+rails BoxingSite
+cd BoxingSite
+./script/generate scaffold TeamMember lastname:string firstname:string xNumber:string passbook:boolean
+./script/generate scaffold Coach lastname:string firstname:string xNumber:string
+rake db:migrate
+
+
+./script/server
+

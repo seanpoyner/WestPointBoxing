@@ -1,0 +1,23 @@
+<p>
+  <b>Lastname:</b>
+  <%=h @team_member.lastname %>
+</p>
+
+<p>
+  <b>Firstname:</b>
+  <%=h @team_member.firstname %>
+</p>
+
+<p>
+  <b>Xnumber:</b>
+  <%=h @team_member.xNumber %>
+</p>
+
+<p>
+  <b>Passbook:</b>
+  <%=h @team_member.passbook %>
+</p>
+
+
+<%= link_to 'Edit', edit_team_member_path(@team_member) %> |
+<%= link_to 'Back', team_members_path %>

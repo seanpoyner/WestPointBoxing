@@ -1,0 +1,273 @@
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (26.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (13.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTeamMembers (20111221082912)
+  [4;36;1mSQL (19.3ms)[0m   [0;1mCREATE TABLE "team_members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lastname" varchar(255), "firstname" varchar(255), "xNumber" varchar(255), "passbook" boolean, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (21.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20111221082912')[0m
+Migrating to CreateCoaches (20111221082915)
+  [4;36;1mSQL (15.8ms)[0m   [0;1mCREATE TABLE "coaches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lastname" varchar(255), "firstname" varchar(255), "xNumber" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (23.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20111221082915')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("coaches")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mPRAGMA index_list("team_members")[0m
+/!\ FAILSAFE /!\  Wed Dec 21 03:31:06 -0500 2011
+  Status: 500 Internal Server Error
+  No route matches "/TeamMembers" with {:method=>:get}
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Wed Dec 21 03:31:06 -0500 2011
+  Status: 500 Internal Server Error
+  No route matches "/static.ak.fbcdn.net" with {:method=>:get}
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Wed Dec 21 03:31:26 -0500 2011
+  Status: 500 Internal Server Error
+  No route matches "/static.ak.fbcdn.net" with {:method=>:get}
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /root/WestPointBoxing/BoxingSite/vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing CoachesController#index (for 127.0.0.1 at 2011-12-21 03:31:31) [GET]
+
+
+CGI::Session::CookieStore::TamperedWithCookie (CGI::Session::CookieStore::TamperedWithCookie):
+    /vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:145:in `unmarshal'
+    /vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:102:in `restore'
+    /usr/lib/ruby/1.8/cgi/session.rb:312:in `[]'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:98:in `session'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:130:in `stale_session_check!'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:78:in `session'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1208:in `assign_shortcuts_without_flash'
+    /vendor/rails/actionpack/lib/action_controller/flash.rb:166:in `assign_shortcuts'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:519:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:184:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendered /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (31.1ms)
+Rendered /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (11.2ms)
+Rendering /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-21 03:31:31) [GET]
+
+
+ActionController::RoutingError (No route matches "/static.ak.fbcdn.net" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CoachesController#index (for 127.0.0.1 at 2011-12-21 03:32:10) [GET]
+  [4;36;1mCoach Load (1.0ms)[0m   [0;1mSELECT * FROM "coaches" [0m
+Rendering template within layouts/coaches
+Rendering coaches/index
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Coaches]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-21 03:32:10) [GET]
+
+
+ActionController::RoutingError (No route matches "/static.ak.fbcdn.net" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /root/WestPointBoxing/BoxingSite/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)

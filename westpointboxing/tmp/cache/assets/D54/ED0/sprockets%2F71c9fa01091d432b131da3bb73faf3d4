@@ -1,0 +1,1095 @@
+o: ActiveSupport::Cache::Entry	:@expires_in0:@value{	"_version"%796c41b8aa28cc6d267c6d74095d8935"digest"%7e3f7ee273fdb27d0420869fdb6cec25"lengthis"source"s/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+/* line 1, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 6, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+p {
+  margin: 0.7em 0;
+  line-height: 1.8em;
+}
+
+/* line 10, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+dl {
+  margin: 1em 0;
+}
+
+/* line 14, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 18, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+dd {
+  margin: 0.5em;
+  padding: 0;
+}
+
+/* line 23, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+img {
+  padding: 5px;
+  background-color: #3f3f3f;
+  margin: 5px;
+  border: #000 1px solid;
+}
+
+/* line 30, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+img:hover {
+  padding: 5px;
+  background-color: #3f3f3f;
+  margin: 5px;
+  border: #fff 1px solid;
+}
+
+/* line 36, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+img.right {
+  float: right;
+  margin: 10px 0 0 10px;
+}
+
+/* line 40, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+img.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+/* line 47, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+a:link img,
+a:visited img,
+a:hover img,
+a:active img {
+  border: none;
+  background: none;
+  padding: none;
+  background: url(images/shadow.gif) no-repeat right bottom;
+  padding: 4px 10px 10px 4px;
+  border-top: #eee 1px solid;
+  border-left: #eee 1px solid;
+}
+
+/* line 56, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+img.wp-smiley, .wpstats, img.noborder, a img.noborder {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+/* line 61, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.clear {
+  clear: both;
+  height: 20px;
+}
+
+/* line 66, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+blockquote {
+  color: #666;
+  margin: 1em;
+  padding: 0 0 10px 50px;
+  background: url(images/blockquote.gif) no-repeat left top;
+}
+
+/* line 73, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+fieldset {
+  border: 0;
+}
+
+/* line 77, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background: black;
+  margin: 10px;
+  font: 76%/1.6em verdana, tahoma, arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 85, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 88, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+a:link, a:visited {
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 92, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+a:hover, a:active {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* line 97, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Verdana, Arial, Serif;
+  color: #c49400;
+}
+
+/* line 102, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 990px;
+  position: relative;
+  text-align: left;
+  border: 1px solid #000;
+  background: black;
+}
+
+/* line 112, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#navigation {
+  background-image: url(images/orange/orange-li.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+  overflow: hidden;
+  width: 990px;
+  position: relative;
+  text-align: center;
+  font-family: Trebuchet MS,Tahoma, Verdana, Arial, Serif;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  margin: 0 auto;
+}
+
+/* line 126, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+html #navigation {
+  height: 1%;
+}
+
+/* line 129, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#navigation ul li {
+  float: left;
+  margin: 0px;
+  list-style-type: none;
+}
+
+/* line 134, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#navigation ul li a {
+  border-right: 1px solid #1e1e1e;
+  border-bottom: none;
+  padding: 9px 15px 9px 15px;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background: #eeeeee;
+  font-size: 12px;
+  letter-spacing: 0px;
+  background-image: url(images/orange/orange-li.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+/* line 152, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#navigation ul li a:hover,
+#navigation ul li a:active,
+#navigation ul li.current_page_item a {
+  background-image: url(images/li-hover.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  color: #fff;
+  border-right: 1px solid #1e1e1e;
+  border-bottom: none;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* line 162, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#drop-shadow {
+  background-image: url(images/drop-shadow.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin: 0px;
+  width: 202px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+/* line 171, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#header {
+  clear: both;
+  margin: 0 auto;
+  width: 990px;
+  position: relative;
+  text-align: left;
+  padding: 15px 0px 15px 0px;
+  color: #FFFFFF;
+}
+
+/* line 181, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#header h1 {
+  font-size: 1.8em;
+  margin: 10px 0 0 0px;
+  font-variant: small-caps;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+/* line 188, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#header h1 a {
+  text-decoration: none;
+  border: 0;
+  color: #FFFFFF;
+}
+
+/* line 195, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#header h2 {
+  margin: 5px 0 0 0px;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Tahoma, Verdana, Arial, Serif;
+  letter-spacing: 0px;
+}
+
+/* line 202, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#feedarea {
+  height: 30px;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 207, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#feedarea a:link, feedarea a:active, feedarea a:visited, feedarea a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* line 211, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+html #feedarea {
+  border-bottom: 1px dashed #151515;
+}
+
+/* line 215, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#feedarea dl dt {
+  display: inline;
+  margin-right: 5px;
+}
+
+/* line 220, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#feedarea dl dd {
+  display: inline;
+  margin-right: 5px;
+  background: url(images/icon_feed.gif) no-repeat left center;
+  padding-left: 16px;
+}
+
+/* line 228, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 239, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content h4 {
+  font-size: 1.1em;
+  margin: 1em 0 0 0;
+}
+
+/* line 243, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content h5 {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+/* line 248, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content-main ul {
+  margin: 0 1em;
+  padding: 0 1em;
+  list-style-image: url(images/bullet.png);
+}
+
+/* line 254, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content-main ul.asides {
+  margin: 0;
+  padding: 2em;
+  border-bottom: #000 1px solid;
+}
+
+/* line 260, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content ol {
+  list-style-type: decimal;
+  margin: 1em;
+  padding-left: 2em;
+}
+
+/* line 265, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content-main {
+  float: left;
+  width: 560px;
+}
+
+/* line 269, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+html #section-index #content-main {
+  margin-right: 0px;
+}
+
+/* line 273, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .post {
+  padding-left: 10px;
+}
+
+/* line 278, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content h2,
+#content h3 {
+  font-size: 1.5em;
+  margin: 1em 0 0;
+  font-weight: normal;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  color: #c49400;
+}
+
+/* line 292, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .entry a:link, #content .entry a:visited {
+  border-bottom: #c49400 1px dashed;
+}
+
+/* line 296, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .entry a:hover, #content .entry a:active {
+  border-bottom: #333333 1px solid;
+}
+
+/* line 300, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .entry li {
+  margin: 0 0 0.3em 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+/* line 306, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .postmetadata {
+  clear: both;
+  font-size: 0.9em;
+  text-align: right;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 315, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .post-info {
+  clear: both;
+  font-size: 0.9em;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 324, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .post-info,
+#content h2.pagetitle {
+  background: url(images/underline-repeat1.gif) repeat-x left bottom;
+  padding-bottom: 15px;
+}
+
+/* line 329, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#comments, #respond {
+  margin: 0;
+  padding: 1em 0 0 0;
+  margin: 50px;
+  color: #333333;
+}
+
+/* line 336, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#commentform {
+  margin: 5px;
+  padding: 10px;
+  background: #292929;
+  border: #000 1px solid;
+}
+
+/* line 343, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.commentnum {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+/* line 348, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist {
+  margin: 1em 0;
+  padding: 0;
+  margin: 5px;
+}
+
+/* line 355, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* line 361, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li.alt {
+  background: #313131;
+}
+
+/* line 365, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li.authorcomment {
+  border: #000 1px solid;
+  margin: 20px;
+  background-image: url(images/cat-box-rep.png);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+/* line 374, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li .cmtinfo {
+  font-size: 1em;
+}
+
+/* line 378, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li cite {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* line 383, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#container .commentlist li .cmtinfo em {
+  float: right;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+/* line 391, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .commentsfeed {
+  background: url(images/icon_feed.gif) no-repeat left center;
+  padding-left: 16px;
+}
+
+/* line 396, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#content .trackback {
+  background: url(images/link.gif) no-repeat left center;
+  padding-left: 20px;
+}
+
+/* line 401, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+input.textbox, textarea {
+  background: #333;
+  border: #000 1px solid;
+  font: 1em Verdana, Arial, Serif;
+  padding: 2px;
+  color: #FFFFFF;
+  width: 150px;
+}
+
+/* line 409, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+textarea {
+  width: 90%;
+  padding: 10px;
+  line-height: 2em;
+  height: 20em;
+}
+
+/* line 416, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+input.textbox:focus, textarea:focus {
+  border: #fff 1px solid;
+}
+
+/* line 420, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#submit {
+  background-image: url(images/orange/orange-li.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+  padding: 3px;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: 1px solid #000000;
+}
+
+/* line 430, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#submit hover {
+  background-image: url(images/top-nav-hover.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+  color: #fff;
+}
+
+/* line 437, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.post h4 {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Verdana, Tahoma, Arial, Serif;
+}
+
+/* line 443, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.post h4 em {
+  font-style: normal;
+  float: right;
+  font-weight: normal;
+}
+
+/* line 448, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#header, #content, #sidebar, #footer, .widget {
+  overflow: hidden;
+}
+
+/* line 451, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.did-you-know {
+  background-color: #1e1e1e;
+  border-bottom: #000000 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 990px;
+  font-size: 11px;
+  margin: 0px  auto;
+  color: #fff;
+}
+
+/* line 464, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.footer-area {
+  overflow: hidden;
+  width: 990px;
+  position: relative;
+  text-align: left;
+  font-family: Trebuchet MS,Tahoma, Verdana, Arial, Serif;
+  margin: 0 auto;
+  padding: 0px 0 9px 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 477, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.footer-area a {
+  font-size: 12px;
+  font-weight: bold;
+  border: 0px;
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 484, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.footer-area a:hover {
+  font-size: 12px;
+  font-weight: bold;
+  border: 0px;
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 491, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.footer-area a:visited {
+  font-size: 12px;
+  font-weight: bold;
+  border: 0px;
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 498, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.footer-area a:hover {
+  font-size: 12px;
+  font-weight: bold;
+  border: 0px;
+  color: #c49400;
+  text-decoration: none;
+}
+
+/* line 505, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 990px;
+  font-size: 11px;
+  margin: 0px  auto;
+  text-align: left;
+  color: #fff;
+}
+
+/* line 514, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors a:hover {
+  font-size: 11px;
+  color: #fff;
+  border: 0px;
+}
+
+/* line 519, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors a:visited {
+  font-size: 11px;
+  color: #fff;
+  border: 0px;
+}
+
+/* line 524, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors a:active {
+  font-size: 11px;
+  color: #fff;
+  border: 0px;
+}
+
+/* line 529, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors a {
+  font-size: 11px;
+  color: #fff;
+  border: 0px;
+}
+
+/* line 534, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.Theme-Sponsors a:hover {
+  font-size: 11px;
+  color: #fff;
+  border: 0px;
+}
+
+/* line 539, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#search-tool-div {
+  position: absolute;
+  visibility: visible;
+  z-index: 100;
+  right: 20px;
+  top: 30px;
+}
+
+/* line 546, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.search-top {
+  border: #d2a415 1px solid;
+  padding: 4px;
+  background: #333333 url(images/form-bg.gif) repeat-x top;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+/* line 553, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.search-top:focus {
+  padding: 4px;
+  background: #333333 url(images/form-bg.gif) repeat-x top;
+  border: #fff 1px solid;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #d2a415;
+}
+
+/* line 560, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.submit-search {
+  padding: 2px;
+  margin: 0px;
+  font-size: 11px;
+  color: #333;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* line 567, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.submit-search:hover {
+  padding: 2px;
+  font-size: 11px;
+  color: #333;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* line 573, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.no-image {
+  border: 0px;
+  background-image: none;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+/* line 579, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar {
+  empty-cells: show;
+  width: 180px;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  color: #666666;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+/* line 591, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar LI {
+  list-style-type: none;
+  padding: 0px;
+  background-image: none;
+  width: 15px;
+  border: 0px;
+}
+
+/* line 598, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar LI A {
+  list-style-type: none;
+  padding: 0px;
+  background-image: none;
+  width: 15px;
+  border: 0px;
+}
+
+/* line 606, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar caption {
+  text-align: left;
+  color: #FFFFFF;
+  width: 180px;
+  margin: 0px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
+}
+
+/* line 618, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar th {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* line 623, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar td {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* line 628, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.wp-calendar tf {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 632, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.pad {
+  text-align: left;
+}
+
+/* line 635, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav {
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: left;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  background-color: #292929;
+}
+
+/* line 647, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav img {
+  margin: 5px;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 654, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav UL {
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  overflow: hidden;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* line 662, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav LI {
+  width: 200px;
+  margin: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+/* line 670, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav LI A {
+  width: 200px;
+  display: block;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  background-color: #292929;
+}
+
+/* line 683, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav LI A:hover {
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  background-color: #2e2e2e;
+  background-image: url(images/li-hover.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  border-bottom: 1px solid #000;
+}
+
+/* line 699, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right {
+  width: 317px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: right;
+  position: relative;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  background-color: #292929;
+  height: 458px;
+}
+
+/* line 714, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right img {
+  margin: 5px;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 721, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right UL {
+  width: 275px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  overflow: hidden;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* line 729, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right LI {
+  width: 275px;
+  margin: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 736, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right LI A {
+  width: 275px;
+  display: block;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  background-color: #292929;
+}
+
+/* line 749, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#nav-right LI A:hover {
+  width: 275px;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  background-color: #2e2e2e;
+  background-image: url(images/li-hover.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  border-bottom: 1px solid #000;
+}
+
+/* line 765, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.cat {
+  width: 275px;
+  margin: 0px;
+  padding: 4px;
+  overflow: hidden;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  background-image: url(images/cat-box-rep.png);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+/* line 778, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#style-switch-theme {
+  position: absolute;
+  visibility: visible;
+  z-index: 95;
+  top: 30px;
+  right: 5px;
+}
+
+/* line 785, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#style-switch {
+  position: absolute;
+  visibility: visible;
+  z-index: 99;
+  top: 30px;
+  right: 0px;
+  display: inline;
+}
+
+/* line 793, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#style-switch img {
+  border: 1px solid #000;
+  padding: 1px;
+  background-color: #ffffff;
+  background-image: none;
+}
+
+/* line 799, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#style-switch img:hover {
+  border: 1px solid #ffffff;
+  padding: 1px;
+  background-color: #000;
+  background-image: none;
+}
+
+/* line 805, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#style-switch a, style-switch a:active, style-switch a:visited, style-switch a:link style-switch a:hover {
+  border-bottom: 0px;
+  margin-right: 0px;
+  background-image: none;
+}
+
+/* line 810, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#back-to-top {
+  position: absolute;
+  visibility: visible;
+  z-index: 82;
+  right: 15px;
+  top: 7px;
+}
+
+/* line 817, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#main-image {
+  width: 990px;
+  height: 120px;
+  background: url(images/banner120.jpg) no-repeat center;
+  border: 1px solid #000;
+  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 826, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#main-image IMG {
+  border: 0px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+/* line 833, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#monkeys {
+  float: right;
+}
+
+/* line 839, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+Got this from www.w3schools.com
+#baby {
+  float: left;
+}
+
+/* line 851, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+Got this from www.w3schools.com
+This is the dropmenu for the header
+.dropmenudiv {
+  position: absolute;
+  top: 0;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+  font: normal 12px Verdana;
+  line-height: 18px;
+  text-align: left;
+  z-index: 100;
+  background-color: white;
+  width: 160px;
+  visibility: hidden;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4);
+}
+
+/* line 865, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.dropmenudiv-ol {
+  background-image: url(pix/nav-ol.gif);
+  background-repeat: repeat-x;
+  background-position: left center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 3px 3px 28px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #edecec;
+  border-bottom: 1px solid #333333;
+  overflow: hidden;
+  margin: 0px;
+  display: block;
+}
+
+/* line 880, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.dropmenudiv a {
+  background-image: url(http://www.itsnature.org/wp-content/themes/min/pix/nav-li.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin: 0px;
+  display: block;
+  text-decoration: none;
+  padding: 3px 3px 3px 28px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #333333;
+  color: #333333;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+/* line 894, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+* html .dropmenudiv a {
+  width: 100%;
+  text-align: left;
+}
+
+/* line 898, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+.dropmenudiv a:hover {
+  background-image: url(http://www.itsnature.org/wp-content/themes/min/pix/nav-li-hover.gif);
+  text-align: left;
+}
+
+/* line 904, /home/loki/Projects/Boxing/westpointboxing/app/assets/stylesheets/scaffolds.css.scss */
+#bottom {
+  width: 100%;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: left;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  background-color: #292929;
+}
+:@compressedF:@created_atf1324614512.8176179 SÚ
